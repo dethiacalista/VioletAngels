@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme" />
+
+    <ImageView
+        android:id="@+id/productImage"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_below="@id/toolbar"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:src="@drawable/cadbury" />
+
+    <TextView
+        android:id="@+id/productName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/toolbar"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="0dp"
+        android:layout_toRightOf="@id/productImage"
+        android:text="Cadbury Cookies"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/productDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/productName"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="10dp"
+        android:layout_toRightOf="@id/productImage"
+        android:text="Satisfy your sweet cravings with our heavenly Vanilla Cookies, each crowned with Cadbury Chocolate!"
+        android:textSize="11sp" />
+
+    <Button
+        android:id="@+id/addToCartButton"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_below="@id/productDescription"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="120dp"
+        android:text="Add to Cart"
+        android:textSize="11sp" />
+
+    <ImageView
+        android:id="@+id/productImage1"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_below="@id/productImage"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:src="@drawable/nutella" />
+
+    <TextView
+        android:id="@+id/productName1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/addToCartButton"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="0dp"
+        android:layout_toRightOf="@id/productImage1"
+        android:text="Nutella Cookies"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/productDescription1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/productName1"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="10dp"
+        android:layout_toRightOf="@id/productImage1"
+        android:text="Treat yourself to a moment of pure bliss with our Vanilla Cookies generously layered with delectable Nutella Spread!"
+        android:textSize="11sp" />
+
+    <Button
+        android:id="@+id/addToCartButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_below="@id/productDescription1"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="120dp"
+        android:text="Add to Cart"
+        android:textSize="11sp" />
+
+    <ImageView
+        android:id="@+id/productImage2"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_below="@id/productImage1"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:src="@drawable/kenari" />
+
+    <TextView
+        android:id="@+id/productName2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/addToCartButton1"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="0dp"
+        android:layout_toRightOf="@id/productImage1"
+        android:text="Walnut Cookies"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/productDescription2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/productName2"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="10dp"
+        android:layout_toRightOf="@id/productImage1"
+        android:text="Embark on a journey of taste with our Chocolate Cookies lavishly topped with crunchy walnuts!"
+        android:textSize="11sp" />
+
+    <Button
+        android:id="@+id/addToCartButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_below="@id/productDescription2"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="120dp"
+        android:text="Add to Cart"
+        android:textSize="11sp" />
+
+    <ImageView
+        android:id="@+id/productImage3"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_below="@id/productImage2"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="25dp"
+        android:src="@drawable/kacang" />
+
+    <TextView
+        android:id="@+id/productName3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/addToCartButton2"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="0dp"
+        android:layout_toRightOf="@id/productImage3"
+        android:text="Mixed Nuts Cookies"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/productDescription3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/productName3"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="10dp"
+        android:layout_toRightOf="@id/productImage1"
+        android:text="Discover pure delight in every bite with our Vanilla Cookies infused with a delightful blend of assorted nuts!"
+        android:textSize="11sp" />
+
+    <Button
+        android:id="@+id/addToCartButton3"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_below="@id/productDescription3"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="120dp"
+        android:text="Add to Cart"
+        android:textSize="11sp" />
+
+    </RelativeLayout>
+</ScrollView>
